@@ -13,9 +13,10 @@
 
 
 # Kurulum
-## Sistem Gereksinimleri
 
-## Gerekli kütüphanelerin Kurulumu
+* python == 3.7 üzerinde test edilmşitir
+
+## Gerekli Kütüphanelerin Kurulumu
 
 ```
 pip install -r requirements.txt
