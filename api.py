@@ -5,7 +5,7 @@ from edited import VideoProcessor
 app = Flask(__name__)
 CORS(app)
 
-vp = VideoProcessor(openai_api_key="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")  # OpenAI API anahtarınızı buraya girin
+vp = VideoProcessor(openai_api_key="")  # OpenAI API anahtarınızı buraya girin
 
 
 @app.route("/api/keywordanalysis", methods=["POST"])
