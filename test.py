@@ -11,8 +11,8 @@ import uuid
 import ast
 nltk.download("punkt")
 
-# openai.api_key = "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"
-openai.api_key = "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"
+# openai.api_key = ""
+openai.api_key = ""
 
 def create_folder_if_not_exist(folder_path):
     if not os.path.exists(folder_path):
